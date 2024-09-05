@@ -678,7 +678,7 @@ mjx-container {
 $sidebar-display: 'sidebar-display';
 $btn-border-width: 3px;
 $btn-mb: 0.5rem;
-
+// 사이드바 관리 코드
 #sidebar {
   @include pl-pr(0);
 
@@ -689,7 +689,12 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  background: url(sbi.png);
+  background-color: var(--sidebar-bg);
+  background-size: 150px 410px;
+  background-position: left 0px bottom 60px;
+  background-repeat: no-repeat;
+  
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -718,9 +723,12 @@ $btn-mb: 0.5rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
-
+    
+    // 삽입한 그림 위치 조정 코드
     img {
-      transition: transform 0.5s;
+      transform: scale(1.1); // 삽입한 그림 확대 하는 코드
+      transition: transform 0.5s; // 삽입한 그림 부드러운 확대를 위해 추가 
+      margin-top: 1px; // 삽입한 그림 위로 1픽셀 당기기는 코드
 
       &:hover {
         transform: scale(1.2);
