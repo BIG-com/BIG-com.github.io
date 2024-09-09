@@ -6,7 +6,22 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-master:
+masterJ:
   name: JH
   twitter: GBIG_com
   url: https://github.com/BIG-com/
+
+masterG:
+  name: GH
+  twitter: GBIG_com
+  url: https://github.com/rg9086/
+
+masterS:
+  name: SY
+  twitter: GBIG_com
+  url: https://github.com/SooDal2/
+
+masterW:
+  name: WithCorn
+  twitter:
+  url: https://big-com.github.io/
