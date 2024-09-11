@@ -1,0 +1,106 @@
+[
+  
+  {
+    "title": "Github 블로그 포스팅 작성(Typora)",
+    "url": "/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%9E%91%EC%84%B1(Typora)/",
+    "categories": "Blogging, Chirpy Jekyll Theme",
+    "tags": "Chirpy, Theme, Jekyll, Blog",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "##",
+    "content": "##"
+  },
+  
+  {
+    "title": "Chirpy 테마(v7.1.0)를 사용한 Github 블로그 만들기 for Window",
+    "url": "/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-for-Window/",
+    "categories": "Blogging, Chirpy Jekyll Theme",
+    "tags": "Chirpy, Theme, Jekyll, Blog",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "들어가기 전  해당 사항을 확인 해주세요.      Chirpy 테마는 스타트 버전(적용 쉬움 But 커스텀 불가)과 일반 버전(적용 어려움 But 커스텀 가능)이 있습니다.    해당 포스팅의 내용은 일반 버전을 다루고 있습니다.(개인적으로 일반버전 추천! 성공할 경우 짜릿함)    Chirpy 테마는 버전별로 적용법에 차이가 있음을 확인했습니다. ...",
+    "content": "들어가기 전  해당 사항을 확인 해주세요.      Chirpy 테마는 스타트 버전(적용 쉬움 But 커스텀 불가)과 일반 버전(적용 어려움 But 커스텀 가능)이 있습니다.    해당 포스팅의 내용은 일반 버전을 다루고 있습니다.(개인적으로 일반버전 추천! 성공할 경우 짜릿함)    Chirpy 테마는 버전별로 적용법에 차이가 있음을 확인했습니다. 제목의 버전(v7.1.0)이 아닌 경우 다른 에러가 발생할 수 있습니다.    Window OS가 아닌 다른 OS의 경우 적용의 차이가 있습니다.    앞의 번호가 해당되는 경우 블로그 내에서 모든 문제를 해결할 수 있게 만들었습니다 관련 포스팅을 참조해주세요!    Chirpy 테마가 다른 Github블로그 테마중에서 적용방법이 가장 어렵습니다 끝까지 끈기있게 만들어 성공하길 바라겠습니다! ( 중꺾마!! )  관련 포스팅Chirpy 테마(v7.1.0) 적용 에러 및 해결 모음Chirpy 테마(v7.1.0) Github 블로그 커스터마이징Chirpy 테마(v7.1.0) 댓글창(utterances) 추가Github 블로그 포스팅 작성(Typora)사전 프로그램 설치필요 프로그램  git  ruby  Nodejsgit 설치git 다운로드 사이트 &lt;- 클릭위의 하이퍼링크로 installer 설치 하시면 됩니다.  installer 설치 시 다른 설정이 필요치 않아 그냥 Next 버튼 연타 하시면 됩니다.설치 완료 후 cmd 창을 열어 아래의 코드를 입력하시면 됩니다.git -v깃의 버전이 정상적으로 출력이 되면 설치 완료입니다.깃 사용자 등록을 위해 cmd 창을 열어 줍니다.git config --global user.email \"your@example.com\"git config --global user.name \"your Name\"  EX)위의 예시 대로 본인 이메일과 이름을 등록해 줍니다.ruby 설치ruby 다운로드 사이트 &lt;- 클릭ruby 사이트에서 받은 installer 프로그램을 실행 후  따로 설정하는 것 없이 체크 하는 곳이 보이면 모두 체크 후  Next누르면 됩니다.설치가 완료 되서 finish버튼을 누르면 아래와 같은 cmd가 확인됩니다.3을 누른 뒤 엔터를 누르면 자동으로 설치가 완료됩니다.설치가 완료되면 Enter를 누르면 cmd창이 꺼지고. 그 후 설치가 잘 완료되었는지 확인하기 위해 cmd창을 다시 열어 아래의 코드를 복사 붙여넣기 하면 됩니다.ruby -vgem -v버전이 정상적으로 뜨면 설치가 완료 되었습니다. (ruby를 설치하게 되면 gem이라는 다운로드 메니저가 같이 설치됩니다.)  ruby의 버전을 기억해 두셔야 합니다.Nodejs 설치Nodejs 다운로드 사이트 &lt;- 클릭Nodejs 다운로드 사이트 에서 다운 받은 installer프로그램을 실행 시켜 Nodejs 프로그램을 다운 받습니다.다운 받다 보면 아래 그림 같은 창이 나오는데 체크 꼭 해주시고 Next 누르시면 됩니다ruby와 같이 설치가 완료되었다면 버전을 확인해야 합니다.(관리자 권한으로 cmd를 실행시켜주시면 됩니다)node -vnpm -v버전이 확인 되면 설치가 완료 되었습니다. (nodejs를 설치하게 되면 npm이라는 다운로드 메니저가 같이 설치됩니다.)Github에서 레포지터리 만들기Github에서 로그인을 하게되면 아래와 같은 화면이 나옵니다.new 버튼을 누르게되면 아래와 같이 나오는데 여기서 중요합니다.  Repository name 의 형식이 정해져있습니다 꼭 Owner.github.io로 설정해주셔야 합니다.  해당 형식의 이름은 유일 해야 합니다 같은 이름으로 2개 이상 만들게되면 에러나니 주의해주세요!      EX)  BIG-com.github.io  2번은 public으로 해주셔야 합니다.아래와 같은 화면이 나오면 repo가 정상적으로 생성 된 것을 확인하실 수 있습니다.Chirpy 테마 가져오기  우리는 fork(깃에서 깃으로 레포지터리 복사)를 하지 않고 로컬(자신의 컴퓨터 내부)에서 되도록 가능한 에러를 처리하고 push(깃허브로 파일 전송)하는 방식으로 진행합니다.  어짜피 로컬에서 작성한후 push 해야 하기 때문에 가장 효율적인 방법을 채택했습니다.Chirpy Jekyll Theme Github &lt;- 클릭하이퍼링크를 누르면 Chirpy테마 깃허브 사이트가 나옵니다.위 사진처럼 테마를 다운로드 한 뒤 테마를 적용한 블로그를 관리할 폴더를 하나 만들어 해당 폴더에 압축을 풀어줍니다.압축을 푼 Chirpy 테마 파일의 이름을 본인 깃허브 repo 이름으로 바꿔줍니다.  EX) C:\\Users\\82104\\Desktop\\git_BLOG\\BIG-com.github.io    (바탕화면에 git_BLOG 폴더를 만든 후 테마 파일 넣은 결과)이제 cmd에 들어가 위의 경로로 들어가 줍니다.Chirpy 테마 폴더에 들어가 경로(위의 사진)를 복사한 뒤 cmd창에 “cd 붙여넣기”를 적어줍니다.  앞의 cd는 명령어이며 connect directory의 약자이다.  EX) cd C:\\Users\\82104\\Desktop\\git_BLOG\\BIG-com.github.io위의 사진처럼 경로가 나올 경우 성공입니다.Chirpy 테마 적용테마에 필요한 프로그램 설치이제부터 테마에 필요한 파일을 하나 하나 넣어야 합니다.gem i jekyllgem i wdmgem i webrickgem i bundler위의 코드를 복사하여 cmd 창을 열고 테마가 있는 파일 경로에 붙여넣기하면  설치가 됩니다.그리고 테마 파일 안에 gemfile을 메모장 or VScode로 열어 wdm 버전을 0.2.0으로 고쳐 줍니다.  gem list를 cmd창에 입력해 wdm 버전 확인을 한번 해주시면 좋습니다!gem \"wdm\", \"~&gt; 0.2.0\", :platforms =&gt; [:mingw, :x64_mingw, :mswin]gemfile 저장을 하시고 꺼 주시면 됩니다.bundle다시 cmd 창으로 돌아와 위의 코드를 입력해줍니다.bundle lock --add-platform x86_64-linux마지막으로 플랫폼 세팅으로 위의 코드를 입력하고 Enter를 누르시면 완료됩니다.js파일 min.js파일로 변환  min.js 파일은 minify(축소하다)의 줄임말로 공백과 줄 바꿈을 제거하여 용량을 줄인 파일을 뜻합니다.  즉 js 파일은 개발자가 보기 편하게 만든 파일이고 그것을 서비스 하기 위해서는 min.js파일로 변환 시켜줘야 합니다.앞서 다운 받아놨던 nodejs를 통해 min.js파일을 생성하려 합니다.경로에 들어가 아래의 코드를 복사 하여 아래의 예시처럼 입력합니다.npm install &amp;&amp; npm run build  EX)위의 명령어를 실행했을 떄 ‘NODE_ENV’은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다. 라는 문구와 함께 build가 되지 않는다면 아래의 명령어를 실행하고 다시 위의 코드를 입력해 줍니다.npm install -g win-node-env위의 사진처럼 코드가 나오면 성공한 겁니다.테마 파일 버전 연결 및 수정  수정할 파일      _config.yml    .gitignore    .github/workflows/starter/pages-deploy.yml  테마 파일 안에 config.yml 파일을 메모장 or VScode로 열어보면 29번째 줄에 url이 있습니다 예시에 맞게 적어 주세요.  EX)저장 꼭 해주시고 다음 파일 .gitignore 파일을 열어 아래 사진과 같이 주석 처리(앞에 #을 붙여 주세요)를 해줍니다.마지막으로 pages-deploy.yml을 열어 줍니다 파일 위치는 위의 경로대로 따라 들어가 주시면 됩니다.  pages-deploy.yml 파일 경로 : .github/workflows/starter/pages-deploy.yml위의 사진처럼 ruby의 버전을 맞춰 줍니다. (앞서 ruby 설치할 때의 버전과 일치해야 합니다  3.3.4  =&gt;  3.3 )로컬 실행 테스트cmd를 열어 테마 파일 경로로 이동한 뒤 아래의 코드를 치고 localhost:4000을 인터넷 url창에 입력해 제대로 실행되는지 확인하면 됩니다.jekyll s  해당 단계에서 정상적으로 작동을 한다면 다음 단계로 이동하시면 됩니다.  만일 해당 단계에서 에러가 날 경우  Chirpy 테마(v7.1.0) 적용 에러 및 해결 모음 을 참조하고 앞서 진행했던 것에 문제가 없었는지 확인 부탁드립니다.Github 업로드 하기이제 정상 작동하는 블로그를 Github에 업로드해 호스팅 해주겠습니다.cmd창을 열고 블로그 테마가 있는 경로로 맞추어 줍니다.아래의 코드 중 git remote add origin에서 만들어 두었던 깃 레포지터리 url로 바꿔준뒤 복사 붙여넣기 하시면 깃에 업로드 됩니다.git initgit add -Agit commit -m \"Init\"git branch -M maingit remote remove origingit remote add origin https://github.com/BIG-com/BIG-com.github.io.gitgit pull origin main --rebasegit push -u origin main --forceGithub 업로드 하는 중에 아래의 사진처럼 나오면 Sign in with your browser을 눌러 연결해줍니다.자신의 Github에 접속하여 새로 고침을 한 뒤 아래의 사진처럼 체크 표시가 뜰 때 까지 새로 고침 합니다.체크 표시가 뜨면 Settings - Pages 로 들어가 Deploy from a branch를 GitHub Actions로 바꿔 줍니다.바꿔주면 아래 사진처럼 jekyll Package를 만들어 주는 버튼이 생깁니다.버튼을 클릭한 뒤에 코드가 나옵니다.아래의 코드 중 에서 ruby-version 을 pages-deploy.yml에서 설정한 버전으로 맞추어 줍니다.그 다음은 계속 커밋 해줍니다.커밋을 완료하면 Github창 메뉴 &lt;&gt;Code에서 체크 표시가 뜰 때 까지 기다려 줍니다.이제 자신의 레포지터리 이름을 복사한 후 인터넷 url에 복사하면 완성입니다!마무리블로그 테마 중에 Chirpy 테마가 가장 적용하기 힘들다 해서 도전해봤습니다.mac환경에서도 만들어봤는데 mac환경에서는 생각보다 적용이 쉬웠습니다. 그러나 window 환경에서는 적용이 상당히 어렵더라고요.mac에서 적용할 때는 에러를 3개 정도 봤었는데 window환경에서는 12개에서 15개 정도 본 거 같았어요.대부분의 Github 블로그 만드시는 분들은 개발자인 것 같더라고요 개발자들은 보통 윈도우 환경보다는 mac 환경을 선호하죠. (저도 mac으로 작업합니다.)그래서 mac 환경에서의 에러 해결법은 나와 있는데 window는 거의 없더라고요. (너무 옛날 글 아니면)window 환경에서 나는 에러들 대부분이 경로 문제 아니면 라이브러리 파일 문제입니다. 개발자가 아닌 분들은 코드 읽는 것과 코드의 구성 및 흐름을 예측하시기 어렵다고 생각했습니다.이 포스팅은 그러한 개발자를 꿈꾸는 사람들의 이력서 이자 개발자가 아님에도 Github 블로그를 만들어 보고 싶은 비 개발자들을 위해 작성하였습니다.작성하는 내내 비 개발자인 친구도 이렇게 하면 만들 수 있을까 가능할까 생각하면서 포스팅하게 되었습니다.끈질기게 달려드는 도전자분들에게 많은 도움이 되었으면 좋겠습니다.  PS. Chirpy 테마 버전 별로 만들어봤었는데 버전이 업그레이드 될수록 파일이 추가되어 경로가 이상해지는 케이스도 있고 필요로 하는 라이브러리도 늘어납니다. 테마 적용에 문제가 있으신 분들은 댓글로 달아주세요."
+  },
+  
+  {
+    "title": "Chirpy 테마(v7.1.0) 적용 에러 및 해결 모음",
+    "url": "/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)-%EC%A0%81%EC%9A%A9-%EC%97%90%EB%9F%AC-%EB%B0%8F-%ED%95%B4%EA%B2%B0-%EB%AA%A8%EC%9D%8C/",
+    "categories": "Blogging, Chirpy Jekyll Theme",
+    "tags": "Chirpy, Theme, Jekyll, Blog",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "##",
+    "content": "##"
+  },
+  
+  {
+    "title": "Chirpy 테마(v7.1.0) 댓글창(utterances) 추가",
+    "url": "/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)-%EB%8C%93%EA%B8%80%EC%B0%BD(utterances)-%EC%B6%94%EA%B0%80/",
+    "categories": "Blogging, Chirpy Jekyll Theme",
+    "tags": "Chirpy, Theme, Jekyll, Blog",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "##",
+    "content": "##"
+  },
+  
+  {
+    "title": "Chirpy 테마(v7.1.0) Github 블로그 커스터마이징",
+    "url": "/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95/",
+    "categories": "Blogging, Chirpy Jekyll Theme",
+    "tags": "Chirpy, Theme, Jekyll, Blog",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "##",
+    "content": "##"
+  },
+  
+  {
+    "title": "블로그 시작",
+    "url": "/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/",
+    "categories": "Blogging, Test",
+    "tags": "start, test",
+    "date": "2024-09-06 01:20:30 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "  블로그를 통해서 프로젝트의 진행과 과정을 남겨보고자 한다.동기​\t팀원들과 프로젝트를 같이하면서 만나는 난제를 풀고 그것을 상기하기위해 기록을 하고자 한다.Markdown TEST​\tTypora -&gt; 본문 -&gt; Alert -&gt; choose what else  [!NOTE]  노트  [!TIP]  팁  [!IMPORTANT]  중요  ...",
+    "content": "  블로그를 통해서 프로젝트의 진행과 과정을 남겨보고자 한다.동기​\t팀원들과 프로젝트를 같이하면서 만나는 난제를 풀고 그것을 상기하기위해 기록을 하고자 한다.Markdown TEST​\tTypora -&gt; 본문 -&gt; Alert -&gt; choose what else  [!NOTE]  노트  [!TIP]  팁  [!IMPORTANT]  중요  [!WARNING]  주의  [!CAUTION]  절대 주의  절대주의"
+  }
+  
+]
+
