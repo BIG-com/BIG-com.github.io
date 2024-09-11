@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>WithCorn</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-12T02:33:10+09:00</updated>
+  <updated>2024-09-12T02:49:02+09:00</updated>
   <author>
     <name>WithCorn</name>
     <uri>http://localhost:4000/</uri>
@@ -50,7 +50,7 @@
     <link href="http://localhost:4000/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-for-Window/" rel="alternate" type="text/html" title="Chirpy 테마(v7.1.0)를 사용한 Github 블로그 만들기 for Window" />
     <published>2024-09-06T01:20:30+09:00</published>
   
-    <updated>2024-09-10T00:41:09+09:00</updated>
+    <updated>2024-09-12T02:35:10+09:00</updated>
   
     <id>http://localhost:4000/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-for-Window/</id>
     <content src="http://localhost:4000/posts/Chirpy-%ED%85%8C%EB%A7%88(v7.1.0)%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-for-Window/" />
@@ -103,7 +103,7 @@
     
   
 
-  <summary>##</summary>
+  <summary>에러 모음</summary>
 
   </entry>
 
