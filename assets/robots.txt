@@ -7,4 +7,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://big-com.github.io/Sitemap.xml
+Sitemap: https://big-com.github.io/sitemap.xml
